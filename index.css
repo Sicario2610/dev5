@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*desktop screen*/
+
+@media screen and (min-width: 1025px) {
+  body {
+    margin-left: 20%;
+    margin-top: 5%;
+    display: flex;
+  }
+
+  .taba,
+  .tabb {
+    text-align: center;
+    border: 1px solid black;
+    width: 350px;
+    height: 500px;
+    box-shadow: 20px 20px 20px black;
+  }
+
+  .taba {
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #6558df 0%, #180c88 100%);
+    border: none;
+  }
+
+  .result {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 1.5rem;
+    color: whitesmoke;
+  }
+
+  .total {
+    color: whitesmoke;
+    margin-right: 22%;
+    margin-left: 22%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #180c88 100%, #6558df 0%);
+  }
+
+  .score {
+    font-size: 6em;
+  }
+
+  .max {
+    color: gray;
+    font-weight: 800;
+  }
+
+  .remark {
+    color: whitesmoke;
+    font-size: 2rem;
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+
+  .comment {
+    color: gray;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 1.4rem;
+  }
+
+  .tabb {
+    display: block;
+    text-align: left;
+    border: none;
+    margin-left: 3%;
+  }
+
+  .summary {
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+  }
+
+  .rd,
+  .md,
+  .vd,
+  .vvd {
+    color: red;
+    display: flex;
+    gap: 10px;
+    margin: 5%;
+    padding: 15px 5px;
+    border-radius: 10px;
+  }
+
+  .rd {
+    background-color: rgb(247, 195, 195);
+  }
+
+  .md {
+    background-color: rgb(253, 253, 195);
+  }
+
+  .vd {
+    background-color: rgb(155, 290, 195);
+  }
+
+  .vvd {
+    background-color: rgb(160, 160, 195);
+  }
+
+  .mry {
+    color: orange;
+  }
+
+  .vbl {
+    color: green;
+  }
+
+  .vsl {
+    color: blue;
+  }
+
+  .continue {
+    text-align: center;
+    margin-top: 15%;
+    padding: 15px;
+    background-color: black;
+    color: gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 20px;
+  }
+
+  .as {
+    color: black;
+  }
+
+  .hs {
+    color: black;
+    font-weight: 100;
+  }
+}
+
+/*mobile screen*/
+
+@media screen and (min-width: 340px) and (max-width: 1024px) {
+  body {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .taba {
+    padding-top: 3%;
+    background: linear-gradient(to bottom, #6558df 0%, #180c88 100%);
+    border-radius: 0 0 30px 30px;
+  }
+
+  .result {
+    font-size: 1rem;
+    color: whitesmoke;
+    margin-bottom: 5%;
+  }
+
+  .total {
+    color: whitesmoke;
+    margin-right: 37%;
+    margin-left: 37%;
+    margin-bottom: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #180c88 100%, #6558df 0%);
+  }
+
+  .max {
+    color: gray;
+  }
+
+  .remark {
+    color: whitesmoke;
+  }
+
+  .comment {
+    color: whitesmoke;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-bottom: 10%;
+  }
+
+  .tabb {
+    display: block;
+    text-align: left;
+    border: none;
+    margin-left: 3%;
+  }
+
+  .summary {
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+  }
+
+  .rd,
+  .md,
+  .vd,
+  .vvd {
+    display: flex;
+    gap: 5%;
+    margin: 5%;
+    padding: 5% 5%;
+    border-radius: 7px;
+  }
+  .rd {
+    background-color: rgb(247, 195, 195);
+  }
+
+  .md {
+    background-color: rgb(253, 253, 195);
+  }
+
+  .vd {
+    background-color: rgb(155, 290, 195);
+  }
+
+  .vvd {
+    background-color: rgb(160, 160, 195);
+  }
+
+  .mry {
+    color: orange;
+  }
+
+  .vbl {
+    color: green;
+  }
+
+  .vsl {
+    color: blue;
+  }
+
+  .continue {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 10%;
+    padding: 7%;
+    background-color: black;
+    color: gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    border-radius: 20px;
+  }
+}
